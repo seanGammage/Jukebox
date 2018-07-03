@@ -1,0 +1,17 @@
+﻿<Window x:Class="Jukebox.Registration"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Registration" Height="230" Width="300">
+    <Grid Background="Azure">
+        <Button x:Name="submitBtn" Content="Submit" HorizontalAlignment="Left" Height="34" Margin="115,156,0,0" VerticalAlignment="Top" Width="69" Click="submitBtn_Click"/>
+        <TextBox x:Name="rUsernameTB" HorizontalAlignment="Left" Height="24" Margin="115,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90"/>
+        <PasswordBox x:Name="rPasswordBox" HorizontalAlignment="Left" Height="24" Margin="115,78,0,0" VerticalAlignment="Top" Width="90"/>
+        <PasswordBox x:Name="rPasswordBoxConfirm" HorizontalAlignment="Left" Height="25" Margin="115,117,0,0" VerticalAlignment="Top" Width="90"/>
+        <TextBlock x:Name="rUsernameTBlock" HorizontalAlignment="Left" Height="24" Margin="22,36,0,0" TextWrapping="Wrap" Text="Username:" VerticalAlignment="Top" Width="69"/>
+        <TextBlock Height="20" HorizontalAlignment="Left" Margin="35,0,0,0" x:Name ="errormessage" VerticalAlignment="Top" Width="247"  OpacityMask="Crimson" Foreground="#FFE5572C" />
+        <Button x:Name="resetBtn" Content="Reset" HorizontalAlignment="Left" Height="34" Margin="22,156,0,0" VerticalAlignment="Top" Width="69" Click="resetBtn_Click"/>
+        <TextBlock x:Name="rUsernameTBlock_Copy" HorizontalAlignment="Left" Height="29" Margin="22,113,0,0" TextWrapping="Wrap" Text="Confirm Password:" VerticalAlignment="Top" Width="69"/>
+        <TextBlock x:Name="rUsernameTBlock_Copy1" HorizontalAlignment="Left" Height="24" Margin="22,78,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" Width="69"/>
+        <Button x:Name="backBtn" Content="Back" HorizontalAlignment="Left" Height="34" Margin="213,156,0,0" VerticalAlignment="Top" Width="69" Click="submitBtn_Click"/>
+    </Grid>
+</Window>
